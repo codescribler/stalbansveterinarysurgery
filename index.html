@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>St Albans Veterinary Surgery — UK's Oldest Small Animal Practice, Est. 1873</title>
+<meta name="description" content="153 years of unbroken expertise. Vets with 28+ year tenures. 4.8 rated. The UK's oldest small animal practice in St Albans, Hertfordshire.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+<!-- Microsoft Clarity -->
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","PLACEHOLDER_CLARITY_ID");
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+--navy:#1A3A4A;--navy-light:#2A5A6A;--gold:#B8860B;--gold-pale:#E8D5A0;
+--bg-main:#F7F4EE;--bg-alt:#ECE7DE;--bg-card:#FDFBF7;
+--text:#1E1E1E;--text-secondary:#5C5549;
+--red:#8B1A1A;--footer-bg:#141210;
+--ff-display:'Playfair Display',Georgia,'Times New Roman',serif;
+--ff-body:'Libre Baskerville',Georgia,serif;
+--ff-ui:'Raleway',-apple-system,sans-serif;
+--max-w:1140px;--section-py:110px;--section-py-m:72px;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--ff-body);color:var(--text);background:var(--bg-main);line-height:1.75;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+.container{max-width:var(--max-w);margin:0 auto;padding:0 32px}
+/* Skip Link */
+.skip-link{position:absolute;top:-100%;left:16px;background:var(--navy);color:#fff;padding:12px 24px;z-index:200;border-radius:0 0 6px 6px;font-family:var(--ff-ui);font-size:14px;transition:top .2s}
+.skip-link:focus{top:0}
+/* NAVIGATION */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--bg-card);border-bottom:1px solid rgba(0,0,0,.06);transition:box-shadow .3s}
+.nav.scrolled{box-shadow:0 2px 16px rgba(0,0,0,.06)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:80px;max-width:var(--max-w);margin:0 auto;padding:0 32px}
+.nav-logo{display:flex;flex-direction:column;gap:1px}
+.nav-logo-name{font-family:var(--ff-display);font-weight:700;font-size:22px;color:var(--text);line-height:1.15}
+.nav-logo-sub{font-family:var(--ff-ui);font-weight:500;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-secondary)}
+.nav-logo-date{font-family:var(--ff-ui);font-weight:600;font-size:9.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-top:2px}
+.nav-logo::after{content:'';display:block;width:100%;height:1px;background:var(--gold);margin-top:4px;opacity:.5}
+.nav-links{display:flex;align-items:center;gap:36px}
+.nav-links a{font-family:var(--ff-ui);font-weight:500;font-size:15px;color:var(--text);position:relative}
+.nav-links a::after{content:'';position:absolute;bottom:-3px;left:0;width:0;height:2px;background:var(--gold);transition:width .3s}
+.nav-links a:hover::after{width:100%}
+.nav-emergency{font-family:var(--ff-ui);font-weight:600;font-size:12px;color:var(--red);letter-spacing:.02em}
+.nav-cta{font-family:var(--ff-ui);font-weight:600;font-size:14px;letter-spacing:.04em;background:var(--navy);color:#fff;padding:12px 24px;border-radius:6px;transition:background .2s,transform .2s,box-shadow .2s;white-space:nowrap}
+.nav-cta:hover{background:var(--navy-light);transform:translateY(-1px);box-shadow:0 4px 12px rgba(26,58,74,.25)}
+.nav-cta:focus{outline:3px solid var(--gold);outline-offset:2px}
+.hamburger{display:none;flex-direction:column;gap:5px;width:28px;padding:4px 0;background:none;border:none}
+.hamburger span{display:block;height:2px;background:var(--text);border-radius:2px;transition:transform .3s,opacity .3s}
+.mobile-menu{display:none;position:fixed;inset:0;z-index:99;background:var(--bg-card);flex-direction:column;align-items:center;justify-content:center;gap:32px;opacity:0;pointer-events:none;transition:opacity .3s}
+.mobile-menu.open{opacity:1;pointer-events:all}
+.mobile-menu a,.mobile-menu button{font-family:var(--ff-ui);font-size:20px;font-weight:500;color:var(--text)}
+.mobile-menu .nav-cta{font-size:16px}
+.mobile-close{position:absolute;top:24px;right:24px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:28px;color:var(--text)}
+/* HERO */
+.hero{position:relative;min-height:100dvh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(135deg,#1A3A4A 0%,#2A5A6A 40%,#B8860B 100%)}
+.hero-bg{position:absolute;inset:0;background-image:url('images/hero.jpg');background-size:cover;background-position:center;animation:heroZoom 14s ease-out forwards}
+.hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,rgba(26,58,74,.72) 0%,rgba(26,58,74,.5) 50%,rgba(26,58,74,.25) 100%)}
+@keyframes heroZoom{from{transform:scale(1.08)}to{transform:scale(1)}}
+.hero-content{position:relative;z-index:2;max-width:680px;padding:160px 0 80px;margin-left:0}
+.hero-trust{font-family:var(--ff-ui);font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-pale);margin-bottom:24px;opacity:0;animation:fadeUp .8s .3s ease-out forwards}
+.hero h1{font-family:var(--ff-display);font-weight:800;font-size:56px;line-height:1.1;letter-spacing:-.02em;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.4);opacity:0;animation:fadeUp .9s .5s ease-out forwards}
+.hero-rule{width:80px;height:2px;background:var(--gold);margin:28px 0;opacity:0;animation:expandRule .6s .8s ease-out forwards}
+.hero-sub{font-family:var(--ff-body);font-size:19px;line-height:1.7;color:rgba(255,255,255,.92);max-width:560px;opacity:0;animation:fadeUp .8s 1s ease-out forwards}
+.hero-stars{font-family:var(--ff-ui);font-weight:500;font-size:14px;color:var(--gold-pale);margin-top:20px;opacity:0;animation:fadeUp .7s 1.15s ease-out forwards}
+.hero-ctas{display:flex;gap:16px;margin-top:36px;flex-wrap:wrap;opacity:0;animation:fadeUp .8s 1.3s ease-out forwards}
+.btn-primary{font-family:var(--ff-ui);font-weight:600;font-size:15px;letter-spacing:.06em;background:var(--navy);color:#fff;padding:16px 32px;border-radius:6px;transition:background .2s,transform .2s,box-shadow .2s;min-height:44px;display:inline-flex;align-items:center}
+.btn-primary:hover{background:var(--navy-light);transform:translateY(-1px);box-shadow:0 6px 20px rgba(26,58,74,.3)}
+.btn-primary:focus{outline:3px solid var(--gold);outline-offset:2px}
+.btn-secondary{font-family:var(--ff-ui);font-weight:600;font-size:15px;letter-spacing:.06em;background:var(--red);color:#fff;padding:16px 32px;border-radius:6px;transition:background .2s,transform .2s;min-height:44px;display:inline-flex;align-items:center}
+.btn-secondary:hover{background:#a02020;transform:translateY(-1px)}
+.btn-secondary:focus{outline:3px solid var(--gold);outline-offset:2px}
+.btn-ghost{font-family:var(--ff-ui);font-weight:600;font-size:15px;letter-spacing:.06em;background:transparent;color:var(--navy);border:2px solid var(--navy);padding:14px 30px;border-radius:6px;transition:background .2s,color .2s,transform .2s;min-height:44px;display:inline-flex;align-items:center}
+.btn-ghost:hover{background:var(--navy);color:#fff;transform:translateY(-1px)}
+.btn-ghost:focus{outline:3px solid var(--gold);outline-offset:2px}
+.btn-light{font-family:var(--ff-ui);font-weight:600;font-size:15px;letter-spacing:.06em;background:#fff;color:var(--navy);padding:16px 32px;border-radius:6px;transition:transform .2s,box-shadow .2s;min-height:44px;display:inline-flex;align-items:center}
+.btn-light:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(0,0,0,.15)}
+.btn-light:focus{outline:3px solid var(--gold);outline-offset:2px}
+/* HERITAGE BANNER */
+.heritage-banner{background:var(--navy);padding:36px 0;position:relative;overflow:hidden}
+.heritage-grid{display:flex;justify-content:space-evenly;align-items:center;gap:0}
+.heritage-stat{text-align:center;padding:16px 32px;position:relative}
+.heritage-stat:not(:last-child)::after{content:'';position:absolute;right:0;top:50%;transform:translateY(-50%);width:1px;height:48px;background:var(--gold);opacity:.4}
+.heritage-num{font-family:var(--ff-display);font-weight:700;font-size:42px;color:#fff;line-height:1.1}
+.heritage-label{font-family:var(--ff-ui);font-weight:600;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-pale);margin-top:6px}
+/* SECTION UTILITIES */
+.section{padding:var(--section-py) 0}
+.section-label{font-family:var(--ff-ui);font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+.section-h2{font-family:var(--ff-display);font-weight:700;font-size:44px;line-height:1.2;letter-spacing:-.01em;color:var(--text);margin-bottom:24px}
+.section-h3{font-family:var(--ff-display);font-weight:600;font-size:30px;line-height:1.25;color:var(--text);margin-bottom:16px}
+.section-body{font-size:17px;line-height:1.75;color:var(--text);max-width:65ch;letter-spacing:.005em}
+.section-body p+p{margin-top:20px}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .65s ease-out,transform .65s ease-out}
+.reveal.visible{opacity:1;transform:translateY(0)}
+/* PROBLEM */
+.problem{background:var(--bg-main)}
+.problem-layout{display:grid;grid-template-columns:1fr 380px;gap:64px;align-items:start}
+.worry-box{background:var(--bg-card);border:1px solid rgba(30,30,30,.06);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:36px;margin-top:8px}
+.worry-box h3{font-family:var(--ff-display);font-weight:600;font-size:20px;color:var(--text);margin-bottom:20px}
+.worry-item{font-family:var(--ff-body);font-style:italic;font-size:16px;color:var(--text-secondary);padding:12px 0;border-bottom:1px solid rgba(0,0,0,.06);line-height:1.6}
+.worry-item:last-child{border-bottom:none}
+.problem-close{font-family:var(--ff-body);font-weight:700;font-size:17px;color:var(--text);margin-top:28px}
+/* VALUE PROPOSITION */
+.value-section{background:var(--bg-card)}
+.value-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;margin-top:48px}
+.value-card{background:var(--bg-main);border:1px solid rgba(30,30,30,.06);border-radius:8px;padding:40px;transition:transform .25s,box-shadow .25s,border-color .25s;position:relative;overflow:hidden}
+.value-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--gold);transform:scaleX(0);transition:transform .3s;transform-origin:left}
+.value-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.value-card:hover::before{transform:scaleX(1)}
+.value-card.featured{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr;gap:32px;align-items:center;background:var(--navy);color:#fff;border-color:var(--navy)}
+.value-card.featured .value-num{color:var(--gold-pale)}
+.value-card.featured h3{color:#fff}
+.value-card.featured p{color:rgba(255,255,255,.85)}
+.value-num{font-family:var(--ff-display);font-weight:800;font-size:64px;color:var(--gold);line-height:1;opacity:.35}
+.value-card h3{font-family:var(--ff-display);font-weight:700;font-size:22px;color:var(--text);margin-bottom:12px;line-height:1.3}
+.value-card p{font-size:17px;line-height:1.7;color:var(--text-secondary)}
+/* GUIDE */
+.guide{background:var(--bg-alt)}
+.guide-empathy{display:grid;grid-template-columns:.55fr .45fr;gap:48px;align-items:center;margin-top:48px}
+.guide-empathy-text{font-size:19px;line-height:1.75;color:var(--text)}
+.guide-empathy-text p+p{margin-top:16px}
+.guide-img{border-radius:8px;overflow:hidden;aspect-ratio:4/3;position:relative}
+.guide-img img{width:100%;height:100%;object-fit:cover}
+.guide-img-fallback{width:100%;height:100%;background:var(--bg-alt);border:1px solid var(--navy);border-radius:8px}
+.authority-blocks{margin-top:72px;display:grid;grid-template-columns:.45fr .55fr;gap:48px;align-items:start}
+.authority-img{border-radius:8px;overflow:hidden;aspect-ratio:4/3}
+.authority-img img{width:100%;height:100%;object-fit:cover}
+.authority-text h3{font-family:var(--ff-display);font-weight:600;font-size:28px;color:var(--text);margin-bottom:20px}
+.authority-text p{font-size:17px;line-height:1.75;color:var(--text);margin-bottom:16px}
+.team-list{list-style:none;margin:20px 0}
+.team-list li{font-size:16px;line-height:1.65;color:var(--text);padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)}
+.team-list li strong{font-weight:700}
+.authority-modern{margin-top:48px;padding:40px;background:var(--bg-card);border-radius:8px;border:1px solid rgba(30,30,30,.06)}
+.authority-modern h3{font-family:var(--ff-display);font-weight:600;font-size:24px;color:var(--text);margin-bottom:16px}
+.authority-modern p{font-size:17px;line-height:1.75;color:var(--text)}
+.trust-badges{display:flex;flex-wrap:wrap;gap:16px;margin-top:48px}
+.trust-badge{font-family:var(--ff-ui);font-weight:600;font-size:13px;letter-spacing:.04em;background:var(--gold-pale);color:var(--text);padding:10px 20px;border-radius:40px;white-space:nowrap}
+/* TESTIMONIALS */
+.testimonials{background:var(--bg-card)}
+.testimonial-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:48px}
+.testimonial-card{background:var(--bg-main);border:1px solid rgba(30,30,30,.06);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:40px;position:relative;transition:transform .25s,box-shadow .25s}
+.testimonial-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.testimonial-quote-mark{font-family:var(--ff-display);font-size:72px;color:var(--gold-pale);line-height:1;position:absolute;top:16px;left:36px;pointer-events:none}
+.testimonial-card blockquote{font-family:var(--ff-body);font-style:italic;font-size:17px;line-height:1.7;color:var(--text);padding-top:28px}
+.testimonial-attr{margin-top:20px;font-family:var(--ff-ui);font-weight:600;font-size:14px;color:var(--navy)}
+.testimonial-attr span{font-weight:500;color:var(--text-secondary);font-size:13px;display:block;margin-top:2px}
+/* PLAN */
+.plan{background:var(--bg-main)}
+.plan-steps{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:48px;position:relative}
+.plan-step{padding:48px 40px;position:relative}
+.plan-step:not(:last-child){border-bottom:1px solid rgba(0,0,0,.06)}
+.plan-step:nth-child(1){grid-column:1;grid-row:1/3;border-right:1px solid rgba(0,0,0,.06);border-bottom:none;background:var(--bg-card);border-radius:8px 0 0 8px}
+.plan-step:nth-child(2){grid-column:2;grid-row:1}
+.plan-step:nth-child(3){grid-column:2;grid-row:2}
+.plan-num{font-family:var(--ff-display);font-weight:800;font-size:48px;color:var(--gold);opacity:.3;line-height:1;margin-bottom:16px}
+.plan-step h3{font-family:var(--ff-display);font-weight:700;font-size:22px;color:var(--text);margin-bottom:14px}
+.plan-step p{font-size:16px;line-height:1.7;color:var(--text-secondary)}
+.plan-cta{text-align:center;margin-top:48px}
+/* SERVICES */
+.services{background:var(--bg-card)}
+.services-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:48px}
+.service-card{padding:36px;background:var(--bg-main);border:1px solid rgba(30,30,30,.06);border-radius:8px;transition:transform .25s,box-shadow .25s,border-color .25s;position:relative;overflow:hidden}
+.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--gold);transform:scaleX(0);transition:transform .3s;transform-origin:left}
+.service-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.service-card:hover::before{transform:scaleX(1)}
+.service-icon{font-family:var(--ff-display);font-weight:700;font-size:32px;color:var(--gold);margin-bottom:16px;opacity:.5}
+.service-card h3{font-family:var(--ff-display);font-weight:700;font-size:20px;color:var(--text);margin-bottom:10px;line-height:1.3}
+.service-card p{font-size:16px;line-height:1.7;color:var(--text-secondary)}
+/* STAKES */
+.stakes{position:relative;padding:var(--section-py) 0;overflow:hidden;background:linear-gradient(to bottom,#1A3A4A,#141210)}
+.stakes-bg{position:absolute;inset:0;background-image:url('images/heritage-background.jpg');background-size:cover;background-position:center}
+.stakes-bg::after{content:'';position:absolute;inset:0;background:rgba(20,18,16,.62)}
+.stakes-content{position:relative;z-index:2;max-width:720px}
+.stakes .section-label{color:var(--gold-pale)}
+.stakes .section-h2{color:#fff}
+.stakes p{color:rgba(255,255,255,.88);font-size:17px;line-height:1.75}
+.stakes p+p{margin-top:16px}
+.stakes p strong{color:#fff;font-weight:700}
+.stakes-close{font-family:var(--ff-body);font-weight:700;font-size:19px;color:var(--gold-pale);margin-top:32px}
+/* SUCCESS */
+.success{background:var(--bg-alt)}
+.success-image{border-radius:8px;overflow:hidden;max-height:420px;margin-top:48px}
+.success-image img{width:100%;height:100%;object-fit:cover}
+.success-image-fallback{width:100%;height:420px;background:linear-gradient(to right,#E8D5A0,#ECE7DE);border-radius:8px}
+.success-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:56px}
+.success-item h3{font-family:var(--ff-display);font-weight:700;font-size:20px;color:var(--text);margin-bottom:8px}
+.success-item p{font-size:16px;line-height:1.7;color:var(--text-secondary)}
+.success-close{margin-top:56px;font-size:18px;line-height:1.7;color:var(--text);max-width:65ch;font-family:var(--ff-body)}
+/* EMERGENCY STRIP */
+.emergency{background:var(--red);padding:0;display:flex;align-items:center;justify-content:center;min-height:64px}
+.emergency a{font-family:var(--ff-ui);font-weight:600;font-size:16px;letter-spacing:.04em;color:#fff;padding:20px 32px;display:block;width:100%;text-align:center;transition:background .2s;min-height:44px}
+.emergency a:hover{background:rgba(255,255,255,.08)}
+.emergency a:focus{outline:3px solid var(--gold);outline-offset:-3px}
+/* FINAL CTA */
+.final-cta{background:var(--navy);padding:var(--section-py) 0;text-align:center}
+.final-cta .section-h2{color:#fff;max-width:700px;margin:0 auto 20px}
+.final-cta p{color:rgba(255,255,255,.85);font-size:18px;line-height:1.75;max-width:640px;margin:0 auto 40px}
+.final-cta-buttons{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+/* FOOTER */
+.footer{background:var(--footer-bg);padding:72px 0 32px;color:rgba(255,255,255,.7)}
+.footer-grid{display:grid;grid-template-columns:1.2fr .8fr 1fr;gap:48px;margin-bottom:48px}
+.footer h4{font-family:var(--ff-display);font-weight:700;font-size:18px;color:#fff;margin-bottom:16px}
+.footer p,.footer address{font-family:var(--ff-body);font-size:15px;line-height:1.7;font-style:normal}
+.footer a{color:var(--gold-pale);transition:color .2s}
+.footer a:hover{color:var(--gold)}
+.footer-links{list-style:none}
+.footer-links li+li{margin-top:10px}
+.footer-links a{font-family:var(--ff-ui);font-size:14px;color:rgba(255,255,255,.6)}
+.footer-links a:hover{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.footer-bottom p{font-family:var(--ff-ui);font-size:13px;color:rgba(255,255,255,.35)}
+.footer-bottom a{color:rgba(255,255,255,.5)}
+.footer-bottom a:hover{color:var(--gold-pale)}
+/* MODAL */
+.modal-overlay{position:fixed;inset:0;z-index:200;background:rgba(20,18,16,.65);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .3s}
+.modal-overlay.open{opacity:1;pointer-events:all}
+.modal-box{background:var(--bg-card);max-width:500px;width:90%;border-radius:16px;padding:44px;position:relative;transform:translateY(20px) scale(.97);transition:transform .3s;box-shadow:0 24px 48px rgba(0,0,0,.2)}
+.modal-overlay.open .modal-box{transform:translateY(0) scale(1)}
+.modal-close{position:absolute;top:16px;right:16px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--text-secondary);border-radius:50%;transition:background .2s}
+.modal-close:hover{background:rgba(0,0,0,.05)}
+.modal-close:focus{outline:3px solid var(--gold);outline-offset:2px}
+.modal-box h2{font-family:var(--ff-display);font-weight:700;font-size:26px;color:var(--text);margin-bottom:16px}
+.modal-box p{font-size:16px;line-height:1.7;color:var(--text-secondary);margin-bottom:28px}
+.modal-actions{display:flex;flex-direction:column;gap:12px}
+.modal-actions a{font-family:var(--ff-ui);font-weight:600;font-size:15px;padding:14px 24px;border-radius:6px;text-align:center;transition:transform .2s,box-shadow .2s;min-height:44px;display:flex;align-items:center;justify-content:center}
+.modal-actions .modal-call{background:var(--navy);color:#fff}
+.modal-actions .modal-call:hover{background:var(--navy-light);transform:translateY(-1px)}
+.modal-actions .modal-email{background:var(--gold);color:#fff}
+.modal-actions .modal-email:hover{background:#a07509;transform:translateY(-1px)}
+/* ANIMATIONS */
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+@keyframes expandRule{from{width:0;opacity:0}to{width:80px;opacity:1}}
+/* REDUCED MOTION */
+@media(prefers-reduced-motion:reduce){
+*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;animation-iteration-count:1!important}
+.hero-bg{animation:none;transform:scale(1)}
+}
+/* RESPONSIVE */
+@media(max-width:1023px){
+.nav-links,.nav-emergency,.nav-cta{display:none}
+.hamburger{display:flex}
+.mobile-menu{display:flex}
+.hero h1{font-size:42px}
+.hero-content{max-width:100%}
+.section-h2{font-size:36px}
+.problem-layout{grid-template-columns:1fr;gap:40px}
+.value-grid{grid-template-columns:1fr}
+.value-card.featured{grid-template-columns:1fr}
+.guide-empathy{grid-template-columns:1fr;gap:32px}
+.authority-blocks{grid-template-columns:1fr;gap:32px}
+.testimonial-grid{grid-template-columns:1fr}
+.plan-steps{grid-template-columns:1fr}
+.plan-step:nth-child(1){grid-column:1;grid-row:auto;border-right:none;border-radius:8px}
+.plan-step:not(:last-child){border-bottom:1px solid rgba(0,0,0,.06)}
+.services-grid{grid-template-columns:1fr}
+.success-grid{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr;gap:32px}
+}
+@media(max-width:767px){
+:root{--section-py:72px}
+.container{padding:0 20px}
+.nav-inner{height:68px;padding:0 20px}
+.hero{min-height:90dvh}
+.hero h1{font-size:34px}
+.hero-sub{font-size:17px}
+.hero-content{padding:140px 0 60px}
+.section-h2{font-size:30px}
+.section-h3{font-size:24px}
+.heritage-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.heritage-stat{padding:16px}
+.heritage-stat:not(:last-child)::after{display:none}
+.heritage-stat:nth-child(odd){border-right:1px solid rgba(184,134,11,.2)}
+.heritage-stat:nth-child(1),.heritage-stat:nth-child(2){border-bottom:1px solid rgba(184,134,11,.2)}
+.heritage-num{font-size:32px}
+.final-cta-buttons{flex-direction:column;align-items:center}
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- NAVIGATION -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+<div class="nav-inner">
+<a href="#" class="nav-logo" aria-label="St Albans Veterinary Surgery — Home">
+<span class="nav-logo-name">St Albans</span>
+<span class="nav-logo-sub">Veterinary Surgery</span>
+<span class="nav-logo-date">Est. 1873</span>
+</a>
+<div class="nav-links">
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Our Heritage</a>
+<a href="#">Contact</a>
+<span class="nav-emergency">24hr Emergency: 01707 666399</span>
+<button class="nav-cta" onclick="openModal()">Start Your Relationship With Us</button>
+</div>
+<button class="hamburger" aria-label="Open menu" onclick="toggleMobileMenu()">
+<span></span><span></span><span></span>
+</button>
+</div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+<button class="mobile-close" aria-label="Close menu" onclick="toggleMobileMenu()">&times;</button>
+<a href="#" onclick="toggleMobileMenu()">Home</a>
+<a href="#" onclick="toggleMobileMenu()">Services</a>
+<a href="#" onclick="toggleMobileMenu()">Our Heritage</a>
+<a href="#" onclick="toggleMobileMenu()">Contact</a>
+<button class="nav-cta" onclick="toggleMobileMenu();openModal()">Start Your Relationship With Us</button>
+<p style="font-family:var(--ff-ui);font-size:13px;color:var(--red);margin-top:8px">Emergency: 01707 666399</p>
+</div>
+
+<!-- HERO -->
+<header class="hero" id="main">
+<div class="hero-bg" role="img" aria-label="Distinguished veterinarian kneeling with a Norfolk terrier in a modern consultation room with period details"></div>
+<div class="container">
+<div class="hero-content">
+<p class="hero-trust">4.8 from 159+ reviews &middot; Founded 1873 &middot; Your pet's multi-decade partner</p>
+<h1>Your Pet Deserves to Be Genuinely Known</h1>
+<div class="hero-rule" aria-hidden="true"></div>
+<p class="hero-sub">St Albans Veterinary Surgery &mdash; 153 years of unbroken expertise. The UK's oldest small animal practice. Vets with 28+ year tenures. Continuity that matters.</p>
+<p class="hero-stars">Rated 4.8 out of 5 &middot; 159+ Google Reviews</p>
+<div class="hero-ctas">
+<button class="btn-primary" onclick="openModal()">Start Your Relationship With Us</button>
+<button class="btn-secondary" onclick="openModal()">Emergency: Call Now</button>
+</div>
+</div>
+</div>
+</header>
+
+<!-- HERITAGE BANNER -->
+<section class="heritage-banner" aria-label="Key facts about St Albans Veterinary Surgery">
+<div class="container">
+<div class="heritage-grid">
+<div class="heritage-stat reveal">
+<div class="heritage-num" data-count="153">0</div>
+<div class="heritage-label">Years &middot; Founded 1873</div>
+</div>
+<div class="heritage-stat reveal">
+<div class="heritage-num">Oldest in UK</div>
+<div class="heritage-label">Small animal practice</div>
+</div>
+<div class="heritage-stat reveal">
+<div class="heritage-num" data-count="28">0</div>
+<div class="heritage-label">Year team tenure</div>
+</div>
+<div class="heritage-stat reveal">
+<div class="heritage-num">4.8</div>
+<div class="heritage-label">159+ reviews</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section problem" aria-labelledby="problem-heading">
+<div class="container">
+<div class="problem-layout">
+<div class="reveal">
+<p class="section-label">The Challenge</p>
+<h2 class="section-h2" id="problem-heading">Modern Vets Shouldn't Mean Losing Continuity</h2>
+<div class="section-body">
+<p>Pet care shouldn't feel like a transaction. And your pet shouldn't be a stranger to their vet.</p>
+<p>Too many pet owners find themselves moving between practices, starting from scratch each time. Different vets, different approaches, incomplete histories. Your pet loses the safety of familiarity. You lose the insight that only comes from genuine long-term knowledge.</p>
+<p>It doesn't have to be this way. Veterinary care can be both modern and deeply personal. It can be expert and relational. But it requires a practice built on continuity &mdash; not chains cycling staff, not a corporate model optimised for speed.</p>
+</div>
+<p class="problem-close">These are real concerns. And they deserve a practice built differently.</p>
+</div>
+<div class="worry-box reveal" style="transition-delay:.13s">
+<h3>The Uncertainty</h3>
+<p class="worry-item">"Will the same vet see my pet each visit, or am I starting over again?"</p>
+<p class="worry-item">"Does my vet actually know my pet, or is this just another appointment?"</p>
+<p class="worry-item">"How can I build trust with constantly changing practitioners?"</p>
+<p class="worry-item">"Is my pet getting the depth of expertise that comes from real experience?"</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- VALUE PROPOSITION -->
+<section class="section value-section" aria-labelledby="value-heading">
+<div class="container">
+<p class="section-label reveal">Why Us</p>
+<h2 class="section-h2 reveal" id="value-heading">Why Hertfordshire Families Trust St Albans</h2>
+<div class="value-grid">
+<div class="value-card featured reveal">
+<div class="value-num">153</div>
+<div>
+<h3>153 Years of Unbroken Heritage</h3>
+<p>The UK's oldest small animal practice. Trusted by generations of Hertfordshire families since 1873. This isn't heritage for the sake of it &mdash; it's 153 years of accumulated wisdom, pattern recognition, and clinical excellence that no new practice can replicate.</p>
+</div>
+</div>
+<div class="value-card reveal" style="transition-delay:.13s">
+<h3>Vets with 28+ Year Tenures</h3>
+<p>Clare Loizides has been here since 1998. This isn't a practice where staff come and go. When your pet's vet has served the same community for nearly three decades, that's continuity you can feel in every consultation.</p>
+</div>
+<div class="value-card reveal" style="transition-delay:.26s">
+<h3>Modern Expertise, Classic Values</h3>
+<p>Advanced ultrasound diagnostics. 24-hour emergency care. But delivered by people who genuinely know your pet's name, their fears, and their full medical history. The best of both worlds.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- GUIDE -->
+<section class="section guide" aria-labelledby="guide-heading">
+<div class="container">
+<p class="section-label reveal">Your Guide</p>
+<h2 class="section-h2 reveal" id="guide-heading">Meet a Practice Built on Relationship</h2>
+
+<div class="guide-empathy">
+<div class="reveal">
+<div class="guide-empathy-text">
+<p>We understand what it means to truly care for a pet. They're not just animals &mdash; they're family members with personalities, quirks, fears, and histories that matter.</p>
+<p>When you find a vet who understands that, and who's known your pet for years, something changes. It's no longer just medical care. It's a relationship. That's what St Albans has always been about.</p>
+</div>
+</div>
+<div class="guide-img reveal" style="transition-delay:.13s">
+<img src="images/experienced-team.jpg" alt="Four experienced veterinary professionals standing together in a welcoming practice" loading="lazy">
+</div>
+</div>
+
+<div class="authority-blocks">
+<div class="authority-img reveal">
+<img src="images/specialist-care.jpg" alt="Veterinarian performing an ultrasound examination on a calm dog" loading="lazy">
+</div>
+<div class="authority-text reveal" style="transition-delay:.13s">
+<h3>153 Years of Unbroken Heritage</h3>
+<p>St Albans Veterinary Surgery was founded in 1873. We're not just an old practice &mdash; we're the oldest continuously operating small animal veterinary practice in the entire United Kingdom.</p>
+<p>Independently owned by Andre Hess BVSc BA(Hons) MRCVS, who also serves as Chairman of the Norfolk Terrier Club. Recently joined DNA Vetcare for enhanced support while retaining our independence and legacy.</p>
+
+<h3 style="margin-top:36px">A Team with Real Depth</h3>
+<ul class="team-list">
+<li><strong>Andre Hess</strong> &mdash; Principal &amp; sole owner, breed club leadership</li>
+<li><strong>Clare Loizides</strong> &mdash; 28 years of tenure since 1998</li>
+<li><strong>Catarina Corujas</strong> &mdash; Ultrasound specialist, advanced diagnostics</li>
+<li>Additional vets with 20&ndash;30 years of tenure</li>
+<li>Support staff with genuine multi-decade continuity</li>
+</ul>
+</div>
+</div>
+
+<div class="authority-modern reveal">
+<h3>Modern Expertise, Classic Values</h3>
+<p>We have advanced diagnostic ultrasound. We integrate with modern support networks. But we've done it while keeping what matters: genuine relationships, continuity of care, and the kind of personal attention that only comes from being genuinely known.</p>
+</div>
+
+<div class="trust-badges reveal">
+<span class="trust-badge">4.8 &middot; 159+ Reviews</span>
+<span class="trust-badge">Founded 1873 &middot; Oldest in UK</span>
+<span class="trust-badge">28-Year Tenures</span>
+<span class="trust-badge">Specialist Ultrasound</span>
+<span class="trust-badge">Principal-Owned</span>
+<span class="trust-badge">24-Hour Emergency</span>
+</div>
+</div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section testimonials" aria-labelledby="testimonials-heading">
+<div class="container">
+<p class="section-label reveal">Trusted by Generations</p>
+<h2 class="section-h2 reveal" id="testimonials-heading">Generations of Trust</h2>
+<div class="testimonial-grid">
+<div class="testimonial-card reveal">
+<span class="testimonial-quote-mark" aria-hidden="true">&ldquo;</span>
+<blockquote>My mum took her dog to St Albans when I was a child. Now I bring my own dog there, and I'm planning to take my daughter's future pets there too. Clare knows our family's pets like no one else. When you've had the same vet for 20 years, they're not just a clinician &mdash; they're part of your life.</blockquote>
+<div class="testimonial-attr">Elizabeth H., St Albans<span>Three generations &middot; Bella, Spaniel mix</span></div>
+</div>
+<div class="testimonial-card reveal" style="transition-delay:.13s">
+<span class="testimonial-quote-mark" aria-hidden="true">&ldquo;</span>
+<blockquote>When Mittens developed a kidney issue, the ultrasound specialist Catarina did the most thorough scan I've ever seen. She took 45 minutes, explained everything she was looking for, and genuinely cared about getting the diagnosis right. She knew Mittens already &mdash; she wasn't looking at a file, she was looking at our cat.</blockquote>
+<div class="testimonial-attr">Jennifer M., Welwyn Garden City<span>Mittens, British Shorthair</span></div>
+</div>
+<div class="testimonial-card reveal" style="transition-delay:.26s">
+<span class="testimonial-quote-mark" aria-hidden="true">&ldquo;</span>
+<blockquote>When our golden retriever got very poorly at age 11, Andre examined him thoroughly, listened to us talk about his life, and put together a care plan about quality, not just extending life. He'd seen our dog through his whole life. That level of understanding only comes from genuine relationships.</blockquote>
+<div class="testimonial-attr">Paul &amp; Margaret T., Hatfield<span>Max, Golden Retriever</span></div>
+</div>
+<div class="testimonial-card reveal" style="transition-delay:.39s">
+<span class="testimonial-quote-mark" aria-hidden="true">&ldquo;</span>
+<blockquote>I was worried that a practice founded in 1873 might be old-fashioned. Couldn't have been more wrong. Catarina's ultrasound expertise is cutting-edge, and yet the practice still feels like a place where you're known personally. Modern clinical skills and the warmth of a practice that's been in the community forever.</blockquote>
+<div class="testimonial-attr">Dr Sarah K., St Albans<span>Jasper, Beagle</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PLAN -->
+<section class="section plan" aria-labelledby="plan-heading">
+<div class="container">
+<p class="section-label reveal">Your Path</p>
+<h2 class="section-h2 reveal" id="plan-heading">Your Pet's Care, Built on Continuity</h2>
+<div class="plan-steps reveal">
+<div class="plan-step">
+<div class="plan-num">01</div>
+<h3>Get in Touch</h3>
+<p>Call us on 01727 854787, or book an appointment online for routine care. New clients welcome. We'll get you scheduled and make sure your pet feels genuinely welcomed into our practice family.</p>
+</div>
+<div class="plan-step">
+<div class="plan-num">02</div>
+<h3>Comprehensive Assessment</h3>
+<p>Your pet meets with one of our experienced vets for a thorough evaluation. We take time. We listen. We get to know your pet &mdash; not just their symptoms but their personality, their history, their needs.</p>
+</div>
+<div class="plan-step">
+<div class="plan-num">03</div>
+<h3>Your Pet Becomes Part of Our Family</h3>
+<p>Year after year, the same vets will know your pet. They'll remember their fears, celebrate their good health, support them through age. Your pet is no longer a patient. They're someone we know.</p>
+</div>
+</div>
+<div class="plan-cta reveal">
+<button class="btn-primary" onclick="openModal()">Start Your Relationship With Us</button>
+</div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="section services" aria-labelledby="services-heading">
+<div class="container">
+<p class="section-label reveal">What We Offer</p>
+<h2 class="section-h2 reveal" id="services-heading">Everything Your Pet Needs From a Practice That Knows Them</h2>
+<div class="services-grid">
+<div class="service-card reveal">
+<div class="service-icon" aria-hidden="true">I</div>
+<h3>General Practice Excellence</h3>
+<p>Comprehensive routine care &mdash; vaccinations, health checks, preventative treatment, dental care &mdash; delivered by vets with decades of experience. Every visit builds your pet's complete medical history.</p>
+</div>
+<div class="service-card reveal" style="transition-delay:.1s">
+<div class="service-icon" aria-hidden="true">II</div>
+<h3>Advanced Diagnostic Ultrasound</h3>
+<p>Specialist ultrasound expertise for detailed internal imaging, pregnancy monitoring, organ assessment, and diagnostic clarity that catches problems early and confirms diagnoses accurately.</p>
+</div>
+<div class="service-card reveal" style="transition-delay:.2s">
+<div class="service-icon" aria-hidden="true">III</div>
+<h3>Surgical Services</h3>
+<p>Experienced surgical care for routine procedures through complex cases, performed by vets with 20&ndash;30 years of accumulated surgical expertise. Full pre- and post-operative care with continuity.</p>
+</div>
+<div class="service-card reveal" style="transition-delay:.3s">
+<div class="service-icon" aria-hidden="true">IV</div>
+<h3>Emergency &amp; After-Hours Care</h3>
+<p>24-hour emergency response on 01707 666399 with on-call expertise backed by a century and a half of clinical experience. When crisis hits, your pet knows our team.</p>
+</div>
+<div class="service-card reveal" style="transition-delay:.4s">
+<div class="service-icon" aria-hidden="true">V</div>
+<h3>Preventative Care &amp; Wellness Plans</h3>
+<p>Tailored health packages &mdash; vaccinations, flea and worm treatment, health checks, dental care &mdash; personalised to your pet's individual needs and risk profile.</p>
+</div>
+<div class="service-card reveal" style="transition-delay:.5s">
+<div class="service-icon" aria-hidden="true">VI</div>
+<h3>Senior Pet Care &amp; Quality of Life</h3>
+<p>Specialist attention to ageing pets &mdash; pain management, mobility support, quality-of-life assessment, and compassionate end-of-life planning from vets who've known your pet their whole life.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- STAKES -->
+<section class="stakes" aria-labelledby="stakes-heading">
+<div class="stakes-bg" role="img" aria-label="Warm golden light across antique wooden surface with vintage veterinary instruments"></div>
+<div class="container">
+<div class="stakes-content">
+<p class="section-label reveal">What's at Stake</p>
+<h2 class="section-h2 reveal" id="stakes-heading">What You Lose Without Continuity</h2>
+<div class="reveal">
+<p>Every time you switch vets or accept transactional care, you lose something critical: the depth of knowledge that only comes from knowing your pet over years.</p>
+<p><strong>Different vet every visit?</strong> Your pet's medical history becomes fragmented. Critical patterns are missed. Health risks that a vet who knows them would spot go unnoticed.</p>
+<p><strong>Corporate practice with high staff turnover?</strong> You're not building a relationship. You're going through a system. Your pet doesn't feel safe or known.</p>
+<p><strong>Rushed appointments?</strong> Modern corporate practices optimise for speed. Less time to truly understand your pet. Less time to catch subtle things. Less time for the trust that matters.</p>
+<p><strong>No continuity in emergencies?</strong> When something serious happens at 2am, your pet is in unfamiliar hands. The on-call vet doesn't know their history. Everything starts from scratch.</p>
+<p class="stakes-close">The cost isn't just financial. It's your peace of mind. It's your pet's wellbeing.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SUCCESS -->
+<section class="section success" aria-labelledby="success-heading">
+<div class="container">
+<p class="section-label reveal">The Transformation</p>
+<h2 class="section-h2 reveal" id="success-heading">Genuine Care, Real Relationships</h2>
+<div class="success-image reveal">
+<img src="images/peace-of-mind.jpg" alt="Woman relaxing on a park bench with her healthy cat in a historic English city" loading="lazy">
+</div>
+<div class="success-grid">
+<div class="success-item reveal">
+<h3>Genuine Relationship, Not Transactional Care</h3>
+<p>You don't just have a vet &mdash; you have a partner who knows your pet as an individual. They remember Bella's slight anxiety around injections. They know Max's love of treats.</p>
+</div>
+<div class="success-item reveal" style="transition-delay:.1s">
+<h3>Continuity &amp; Deep Knowledge</h3>
+<p>The same vets see your pet year after year. They build a complete picture of your pet's health, personality, and medical history. Nothing is lost in translation.</p>
+</div>
+<div class="success-item reveal" style="transition-delay:.2s">
+<h3>Peace of Mind from Experience</h3>
+<p>153 years of practice history. Vets with 28&ndash;30 years of tenure. The kind of clinical wisdom that only comes from seeing thousands of cases and mastering their craft.</p>
+</div>
+<div class="success-item reveal" style="transition-delay:.3s">
+<h3>Your Pet as Part of a Veterinary Family</h3>
+<p>Families come for generations. Pets are remembered. It's community-based veterinary care at its finest. Your parents brought their pets here. Your children will bring theirs.</p>
+</div>
+<div class="success-item reveal" style="transition-delay:.4s">
+<h3>Better Long-Term Health Outcomes</h3>
+<p>Early intervention from vets who know your pet deeply. Preventative strategies based on family history and individual risk. Specialist expertise delivered by practitioners who've mastered their craft over decades.</p>
+</div>
+<div class="success-item reveal" style="transition-delay:.5s">
+<h3>A Legacy to Pass On</h3>
+<p>When you're ready, your children will bring their pets to St Albans. Just like their grandparents did. It's not a chain &mdash; it's your neighbourhood practice, with 153 years of roots in this community.</p>
+</div>
+</div>
+<p class="success-close reveal">153 years of roots. Staffed by vets who've devoted decades. Built on the principle that your pet deserves to be genuinely known.</p>
+</div>
+</section>
+
+<!-- EMERGENCY STRIP -->
+<section class="emergency" aria-label="Emergency contact">
+<a href="#" onclick="event.preventDefault();openModal()">Pet Emergency? Call 01707 666399 &mdash; 24 hours, 7 days a week</a>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta" aria-labelledby="cta-heading">
+<div class="container">
+<p class="section-label reveal" style="color:var(--gold-pale)">Take the First Step</p>
+<h2 class="section-h2 reveal" id="cta-heading">153 Years of Trust. Your Pet's Lifetime of Care.</h2>
+<p class="reveal">Not every vet practice is the same. Four experienced surgeons. 28-year tenures. The UK's oldest small animal practice. One goal: your pet's genuine health and lifelong happiness.</p>
+<div class="final-cta-buttons reveal">
+<button class="btn-light" onclick="openModal()">Start Your Relationship With Us</button>
+<button class="btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.4)" onclick="openModal()" onmouseover="this.style.background='rgba(255,255,255,.12)';this.style.borderColor='#fff'" onmouseout="this.style.background='transparent';this.style.borderColor='rgba(255,255,255,.4)'">Call: 01727 854787</button>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+<div class="container">
+<div class="footer-grid">
+<div>
+<h4>St Albans Veterinary Surgery</h4>
+<address>
+4 St Stephens Hill, St Albans AL1 2DS<br>
+<strong>Phone:</strong> <a href="#" onclick="event.preventDefault();openModal()">01727 854787</a><br>
+<strong>Emergency:</strong> <a href="#" onclick="event.preventDefault();openModal()">01707 666399</a> (24-hour)<br>
+<strong>Hours:</strong> Open daily &mdash; emergency care available 24/7
+</address>
+</div>
+<div>
+<h4>Quick Links</h4>
+<ul class="footer-links">
+<li><a href="#">Home</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Our Heritage</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#" onclick="event.preventDefault();openModal()">Book an Appointment</a></li>
+</ul>
+</div>
+<div>
+<h4>Our Heritage</h4>
+<p>Founded 1873. The UK's oldest continuously operating small animal veterinary practice. Independently owned by Andre Hess BVSc BA(Hons) MRCVS. Part of DNA Vetcare since 2025.</p>
+<p style="margin-top:12px">4.8 rated &middot; 159+ Google reviews</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>Demo built by <a href="https://dreamfree.co.uk" target="_blank" rel="noopener">Dreamfree</a> &middot; dreamfree.co.uk</p>
+<p>&copy; 2026 St Albans Veterinary Surgery. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+<!-- DEMO MODAL -->
+<div class="modal-overlay" id="demoModal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+<div class="modal-box">
+<button class="modal-close" aria-label="Close" onclick="closeModal()">&times;</button>
+<h2 id="modal-title">This Is a Demo Website</h2>
+<p>This site was built speculatively to show St Albans Veterinary Surgery what their website could look like. If you're interested in discussing this further, get in touch with Daniel at Dreamfree.</p>
+<div class="modal-actions">
+<a href="tel:07786556885" class="modal-call">Call Daniel: 07786 556 885</a>
+<a href="mailto:daniel@dreamfree.co.uk?subject=I'm interested in discussing the demo website for St Albans Veterinary Surgery" class="modal-email">Email Daniel</a>
+</div>
+</div>
+</div>
+
+<script>
+/* NAV SCROLL */
+const nav=document.querySelector('.nav');
+window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>40)},{passive:true});
+
+/* MOBILE MENU */
+const mobileMenu=document.getElementById('mobileMenu');
+function toggleMobileMenu(){mobileMenu.classList.toggle('open');document.body.style.overflow=mobileMenu.classList.contains('open')?'hidden':''}
+
+/* MODAL */
+const modal=document.getElementById('demoModal');
+let lastFocused;
+function openModal(){lastFocused=document.activeElement;modal.classList.add('open');document.body.style.overflow='hidden';modal.querySelector('.modal-close').focus()}
+function closeModal(){modal.classList.remove('open');document.body.style.overflow='';if(lastFocused)lastFocused.focus()}
+modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(modal.classList.contains('open'))closeModal();if(mobileMenu.classList.contains('open'))toggleMobileMenu()}});
+
+/* SCROLL REVEAL */
+const reveals=document.querySelectorAll('.reveal');
+const revealObserver=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');revealObserver.unobserve(entry.target)}})},{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+reveals.forEach(el=>revealObserver.observe(el));
+
+/* HERITAGE COUNTER */
+function animateCount(el,target,duration){
+const start=performance.now();
+const isFloat=String(target).includes('.');
+function tick(now){
+const elapsed=now-start;
+const progress=Math.min(elapsed/duration,1);
+const eased=1-Math.pow(1-progress,4);
+const current=isFloat?(eased*target).toFixed(1):Math.round(eased*target);
+el.textContent=current+(el.dataset.suffix||'');
+if(progress<1)requestAnimationFrame(tick);
+else el.textContent=(isFloat?target.toFixed(1):target)+(el.dataset.suffix||'')}
+requestAnimationFrame(tick)}
+
+const counters=document.querySelectorAll('[data-count]');
+const counterObserver=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){const el=entry.target;const target=parseFloat(el.dataset.count);animateCount(el,target,1800);counterObserver.unobserve(el)}})},{threshold:0.5});
+counters.forEach(el=>counterObserver.observe(el));
+
+/* FOCUS TRAP FOR MODAL */
+modal.addEventListener('keydown',e=>{
+if(e.key!=='Tab')return;
+const focusable=modal.querySelectorAll('button,a,[tabindex]:not([tabindex="-1"])');
+const first=focusable[0],last=focusable[focusable.length-1];
+if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}
+else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}});
+</script>
+</body>
+</html>
